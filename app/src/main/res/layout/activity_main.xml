@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img">
+
+    <ImageView
+        android:id="@+id/diceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/img_6" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diceImage"
+        android:layout_centerHorizontal="true"
+        android:textColor="#387FA1"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/back"
+        android:text="Roll Dice"
+        android:textSize="22dp" />
+
+</RelativeLayout>
